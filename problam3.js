@@ -1,6 +1,7 @@
-let name;
-let age;
-name = "Madhusudan Gautam";
-age = 22;
-console.log(name,age);
-console.log(typeof(name),typeof(age));
+//Given and character if it is a consonant print "Consonant"
+
+let char = "v";
+
+if(!(char=="a"||char=="A"||char=="e"||char=="E"||char=="i"||char=="I"||char=="o"||char=="O"||char=="u"||char=="U")){
+  console.log("Consonant") ;
+}

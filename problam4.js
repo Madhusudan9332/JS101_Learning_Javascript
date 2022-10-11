@@ -1,17 +1,7 @@
+//Given 3 numbers (all different values), print which is the greatest
 
-console.log("|------------------------------------------------------------------------------|");
-console.log("|                    ___________________________________                       |");
-console.log("|-------------------------SHREE RAM MODEL HIGH SCHOOL--------------------------|");
-console.log("|                    -----------------------------------                       |");
-console.log("|------------------------------------------------------------------------------|");
-console.log("| NAME         | ROLL NO. | SECTION | MATHS | SCIENCE | ENGLISH | MARKS | GRADE|");
-console.log("|------------------------------------------------------------------------------|");
-console.log("| Arjun Singh  | 2086101  |    A    |  52   |    56   |    87   |  195  | B    |");
-console.log("| Madhusudan   | 2086102  |    A    |  88   |    48   |    88   |  224  | A    |");
-console.log("| Arun Arora   | 2086103  |    B    |  68   |    69   |    64   |  201  | B++  |");
-console.log("| Raman Raj    | 2086104  |    A    |  98   |    97   |    99   |  294  | A++  |");
-console.log("| Dhanush      | 2086105  |    A    |  74   |    64   |    61   |  199  | B+   |");
-console.log("| Shivank      | 2086106  |    B    |  39   |    78   |    45   |  162  | C    |");
-console.log("| Dheeraj B.   | 2086107  |    B    |  49   |    59   |    32   |  140  | D    |");
-console.log("|------------------------------------------------------------------------------|");
-console.log("|------------------------------------------------------------------------------|");
+let a=2;
+let b=4;
+let c=1;
+
+a>b&&a>c?console.log(a,"is greatest"):b>a&&b>c?console.log(b,"is greatest"):console.log(c,"is greatest");
