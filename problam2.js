@@ -1,7 +1,8 @@
-// Given any character, if it is a vowel print "Vowel"
-
-let char = "O";
-
-if(char=="a"||char=="A"||char=="e"||char=="E"||char=="i"||char=="I"||char=="o"||char=="O"||char=="u"||char=="U" ){
-  console.log("Vowel") ;
+// If a person is allowed to drive in India print "Apply for a license" or "NA".
+let age=6;
+if(age>=18){
+  console.log("Apply for a license");
+}
+else{
+  console.log("NA");
 }

@@ -1,7 +1,20 @@
-//Given 3 numbers (all different values), print which is the greatest
+//Given stored username and password and input username and password, Print if the user can login or not.
 
-let a=2;
-let b=4;
-let c=1;
+// username and password in database (db)
+let db_username = 'abc@gmail.com';
+let db_password = '123@abc';
+// the input username and password by user
+let in_username = 'abc@gmail.com';
+let in_password = '123@abc';
 
-a>b&&a>c?console.log(a,"is greatest"):b>a&&b>c?console.log(b,"is greatest"):console.log(c,"is greatest");
+if(db_username==in_username){
+  if(db_password==in_password){
+  console.log("login successfully..");
+  }
+  else{
+  console.log("Password Incorrect..");
+  }
+}
+else{
+  console.log("Invalid Username..");
+}
